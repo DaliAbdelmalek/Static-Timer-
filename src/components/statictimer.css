@@ -1,0 +1,35 @@
+body{
+    background-image: url('./images/beach-caribbean-jetty-237272.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    margin: 20% 30%;
+    font-size: 100px;
+    font-weight: 600;
+    color:black;
+    background-color: rgba(255, 255,255,0.3);
+    width: 600px;
+    height: 200px;
+    border: 2px ridge rgba(6, 171, 247, 0.4);
+    border-radius: 5px
+}
+.time div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px
+}
+.time p{
+    display: flex;
+    flex-direction: column;
+    margin: 0px
+}
+.timer{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(46, 46, 46)
+}
